@@ -131,8 +131,6 @@ python main.py
 
 
 
-> 🖼️ Add your screenshots to the `assets/` folder for display.
-
 ---
 
 ## 🤝 Contributors
