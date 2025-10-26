@@ -1,4 +1,4 @@
-# 🐾 WildGuard - National Park Wildlife Conservation System (Python Tkinter)
+# 🐾 WildGuard - National Park Wildlife Conservation System 
 
 🌍 **WildGuard** is a feature-rich desktop application developed using **Python + Tkinter**, designed to protect wildlife, empower donors, and support national park management.
 
