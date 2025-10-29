@@ -1,70 +1,70 @@
-# 🐾 WildGuard - National Park Wildlife Conservation System 
+# 🐾 WildGuard - National Park Wildlife Conservation System
 
-🌍 **WildGuard** is a feature-rich desktop application developed using **Python + Tkinter**, designed to protect wildlife, empower donors, and support national park management.
+🌍 **WildGuard** is a powerful desktop application built with **Python + Tkinter**, designed to protect wildlife, empower donors, and support national park management.
 
-> 🚨 Save Endangered Species • 🗺️ Track Habitats • 📊 Visualize Progress
+> 🚨 Save Endangered Species • 🗺️ Track Habitats • 📊 Visualize Conservation Progress
 
 ---
 
-## 🌟 Features
+## 🌟 Key Features
 
 ### 🏠 Dashboard (Home Screen)
 
-📊 Track conservation stats in real-time with Matplotlib
-🦓 Wildlife counts, activity overview, and module shortcuts
+* 📊 Real-time conservation statistics powered by **Matplotlib**
+* 🦓 Wildlife counts, activity summaries, and module shortcuts
 
 ### 🐯 Species Directory
 
-📁 Add, update, delete & manage species info
-📸 Include scientific names, habitat, threat level & images
-🗃️ SQLite-powered data storage
+* 📁 Add, update, and delete species data effortlessly
+* 📸 Store details like scientific name, habitat, threat level, and images
+* 🗃️ Uses **SQLite3** for efficient data storage
 
 ### 🗺️ Habitat Map Viewer
 
-🧭 View habitat locations using embedded maps (Folium + WebView)
-🎯 Filter species by region or threat level
+* 🧭 Interactive maps created with **Folium** and **WebView**
+* 🎯 Filter species by region or threat category
 
 ### 💬 Chatbot Assistant
 
-🤖 Ask questions and get guided help
-📚 Built using rule-based logic or `nltk`
+* 🤖 Get instant assistance using a **rule-based** or **NLTK-powered** chatbot
+* 📚 Supports help for species data, donors, and volunteers
 
 ### 🔐 Authentication System
 
-🔑 Admin & User role-based access
-🔐 Secure SQLite login system
+* 🔑 Secure **Admin & User** login with role-based access
+* 🧱 SQLite-backed authentication for reliability
 
 ### 💰 Donor Dashboard
 
-💳 Record contributions, show progress bars
-📈 View impact charts
-📤 Export donor reports to PDF/CSV
+* 💳 Record and manage donor contributions
+* 📈 Track funding impact with progress bars and charts
+* 📤 Export reports in **PDF** or **CSV** formats
 
-### 💪 Volunteer Panel
+### 💪 Volunteer Management
 
-📝 Register & manage volunteers
-📅 Assign conservation roles
-📧 Email notifications via `smtplib`
+* 📝 Register, assign, and manage volunteer activities
+* 📅 Role assignment with status tracking
+* 📧 Send automated notifications using **smtplib**
 
-### 🎨 Modern UI/UX
+### 🎨 Modern UI/UX Design
 
-✨ Tkinter + ttk widgets for clean design
-🎨 Image-based buttons and hover effects
-🧩 Keyboard accessibility
+* ✨ Built with **Tkinter + ttk** for an intuitive interface
+* 🎨 Image-based buttons, hover effects, and keyboard shortcuts
+* 🧩 Accessible and visually appealing layout
 
 ---
 
 ## 🛠️ Tech Stack
 
-| 🧪 Tool          | ⚙️ Usage             |
-| ---------------- | -------------------- |
-| Python 3.x       | Programming Language |
-| Tkinter + ttk    | GUI Development      |
-| SQLite3          | Lightweight Database |
-| Matplotlib       | Graphs and Charts    |
-| Folium + WebView | Habitat Mapping      |
-| smtplib          | Email Notifications  |
-| `unittest`       | Module Testing       |
+| 🧪 Tool          | ⚙️ Purpose          |
+| ---------------- | ------------------- |
+| Python 3.x       | Core Programming    |
+| Tkinter + ttk    | Graphical Interface |
+| SQLite3          | Database Management |
+| Matplotlib       | Data Visualization  |
+| Folium + WebView | Interactive Mapping |
+| smtplib          | Email Notifications |
+| unittest         | Testing Framework   |
 
 ---
 
@@ -72,24 +72,24 @@
 
 ```
 wildguard/
-├── assets/               # Images, icons, maps
-├── database/             # SQLite DB files
-├── modules/              # Core backend modules
+├── assets/               # Images, icons, and map resources
+├── database/             # SQLite database files
+├── modules/              # Backend logic modules
 │   ├── species.py
 │   ├── donor.py
 │   └── volunteer.py
-├── gui/                  # UI logic
+├── gui/                  # User interface scripts
 │   ├── dashboard.py
 │   └── login.py
-├── main.py               # Main driver script
-└── requirements.txt      # Dependencies
+├── main.py               # Application entry point
+└── requirements.txt      # Project dependencies
 ```
 
 ---
 
 ## 🚀 Getting Started
 
-🔧 **Installation Steps**
+### 🧩 Installation
 
 ```bash
 git clone https://github.com/your-username/wildguard-python
@@ -98,59 +98,63 @@ pip install -r requirements.txt
 python main.py
 ```
 
+### ⚙️ Prerequisites
+
+* Python 3.8 or above
+* Pip package manager
+* Internet connection for map loading
+
 ---
 
 ## 🧪 Testing & Validation
 
-* ✅ Manual testing for GUI flow
-* 🧪 Unit testing using `unittest`
-* 📋 Check edge cases (null entries, duplicate donors, etc.)
+* ✅ GUI flow tested manually
+* 🧪 Automated tests via `unittest`
+* 📋 Edge case handling (duplicate donors, null values, invalid data)
 
 ---
 
-## 🧬 ER Diagram Overview
+## 🧬 ER Diagram Summary
 
-* ✅ 15 Entities: Species, Admin, Donor, Volunteer, etc.
-* 📌 Key Features: Primary keys, foreign keys, partial/total participation
-* 🌳 Advanced: Specialization, generalization, aggregation
+* ✅ **15 Entities** including Species, Admin, Donor, and Volunteer
+* 🔗 Includes primary and foreign keys
+* ⚙️ Demonstrates participation and mapping constraints
+* 🌳 Incorporates **specialization**, **generalization**, and **aggregation**
 
 ---
 
 ## 🖼️ Screenshots
 
-![Screenshot 2025-05-05 093832](https://github.com/user-attachments/assets/24ca527a-854a-4346-a720-72d269f7c86e)
-![Screenshot 2025-05-05 093853](https://github.com/user-attachments/assets/f8cd253a-b3d0-4730-8e5a-22ec3be9b3eb)
-![Screenshot 2025-05-05 093912](https://github.com/user-attachments/assets/628deb2a-ce05-4ea6-bfb3-3b2ea4336d52)
-![Screenshot 2025-05-05 093921](https://github.com/user-attachments/assets/890a512a-5394-43af-85ec-dadff217a57c)
-![Screenshot 2025-05-05 093931](https://github.com/user-attachments/assets/3cb9379e-1d91-4339-86f5-5448bedd6ab5)
-![Screenshot 2025-05-05 093946](https://github.com/user-attachments/assets/c225102b-8702-4919-8798-435506dcb115)
-![Screenshot 2025-05-05 093954](https://github.com/user-attachments/assets/1e82747d-2bc6-4c39-82e7-7088b57984fc)
-![Screenshot 2025-05-05 094014](https://github.com/user-attachments/assets/e246edaa-9b54-4d60-a302-8b5deba3fb02)
-![Screenshot 2025-05-05 094041](https://github.com/user-attachments/assets/e67df49b-bf24-4537-b8c9-193d84b35bcf)
-![Screenshot 2025-05-05 094053](https://github.com/user-attachments/assets/b61d37d7-804e-42e8-be45-acb1338d22e8)
-
-
+![Dashboard](https://github.com/user-attachments/assets/24ca527a-854a-4346-a720-72d269f7c86e)
+![Directory](https://github.com/user-attachments/assets/f8cd253a-b3d0-4730-8e5a-22ec3be9b3eb)
+![Charts](https://github.com/user-attachments/assets/628deb2a-ce05-4ea6-bfb3-3b2ea4336d52)
+![Login](https://github.com/user-attachments/assets/890a512a-5394-43af-85ec-dadff217a57c)
+![Donor Panel](https://github.com/user-attachments/assets/3cb9379e-1d91-4339-86f5-5448bedd6ab5)
+![Volunteer Management](https://github.com/user-attachments/assets/c225102b-8702-4919-8798-435506dcb115)
+![Map Viewer](https://github.com/user-attachments/assets/1e82747d-2bc6-4c39-82e7-7088b57984fc)
 
 ---
 
 ## 🤝 Contributors
 
-* 👨‍💻 **Aayush** – Lead Developer
-* 👥 **Ashmit** - Core Developer
+| Name       | Role           |
+| ---------- | -------------- |
+| **Aayush** | Lead Developer |
+| **Ashmit** | Core Developer |
 
 ---
 
-## 📬 Contact Us
+## 📬 Contact
 
-📧 [wildguard.team@gmail.com](mailto:wildguard.team@gmail.com)
-🐛 Found a bug? [Open an Issue](https://github.com/your-username/wildguard-python/issues)
+📧 **Email:** [wildguard.team@gmail.com](mailto:wildguard.team@gmail.com)
+🐛 **Report Issues:** [Open on GitHub](https://github.com/your-username/wildguard-python/issues)
 
 ---
 
 ## 📜 License
 
-MIT License – Free for personal and academic use.
+MIT License — Free for personal, educational, and non-commercial use.
 
 ---
 
-### 🐾 WildGuard – *Protecting Wildlife. Preserving the Future.* 🌿
+### 🐾 WildGuard – *Protecting Wildlife, Preserving the Future.* 🌿
